@@ -92,10 +92,19 @@ def inject_css():
 inject_css()
 
 # ──────────────── HEADER VISUALS ───────────────────────────
-st.markdown('<div class="title">QUIZ AI</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Test your knowledge in a fun, game-show style!</div>', unsafe_allow_html=True)
-if os.path.exists("images/banner.png"):
-    st.markdown(f'<div class="banner"><img src="images/banner.png" width="600"></div>', unsafe_allow_html=True)
+banner_path = os.path.join("images", "banner.png")
+if os.path.exists(banner_path):
+    # Center via a 3-column layout
+    left, center, right = st.columns([1, 2, 1])
+    with center:
+        # Display at a fixed width (controls height proportionally)
+        st.image(banner_path, width=600)
+
+st.markdown('<div class="title">AI Quiz Bot - Have Fun!</div>', unsafe_allow_html=True)
+st.markdown(
+    '<div class="subtitle">Test your knowledge in a fun, game-show style!</div>',
+    unsafe_allow_html=True
+)
 
 # ──────────────── LOAD API KEY ──────────────────────────────
 api_key = st.secrets.get("GEMINI_API_KEY", "")
