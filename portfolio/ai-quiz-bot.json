@@ -4,7 +4,7 @@
   "n": 2,
   "title": "AI Quiz Bot",
   "img": "aiQuizbot.webp",
-  "desc": "Interactive knowledge testing with adaptive questioning powered by Gemini 1.5 Flash — generates fresh quizzes on any topic.",
+  "desc": "Interactive knowledge testing with adaptive questioning powered by Gemini 1.5 Flash, generates fresh quizzes on any topic.",
   "code": "https://github.com/Naadir-Dev-Portfolio/AI-Quizbot/blob/main/main.py",
   "demo": "https://aiquizbot.streamlit.app/",
   "details": "https://github.com/Naadir-Dev-Portfolio/AI-Quizbot/blob/main/README.md",

@@ -2,17 +2,17 @@
 
 > Gamified quiz platform powered by Google Gemini AI with dynamic question generation and real-time grading.
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Cloud-FF0000?style=flat-square&logo=streamlit)](https://streamlit.io/)
-[![Gemini_API](https://img.shields.io/badge/Gemini-1.5_Flash-4285F4?style=flat-square&logo=google)](https://ai.google.dev/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat square&logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit Cloud FF0000?style=flat square&logo=streamlit)](https://streamlit.io/)
+[![Gemini_API](https://img.shields.io/badge/Gemini-1.5_Flash-4285F4?style=flat square&logo=google)](https://ai.google.dev/)
 
 ---
 
 ## Overview
 
-AI Quiz Bot is a gamified quiz platform built with Streamlit and Google's Gemini 1.5-Flash model. It lets you challenge yourself on any topic at three difficulty levels with instant AI-generated feedback and a game-show style interface. Generate custom quizzes with 1-30 questions, receive intelligent grading and educational feedback, and track your performance against the AI.
+AI Quiz Bot is a gamified quiz platform built with Streamlit and Google's Gemini 1.5-Flash model. It lets you challenge yourself on any topic at three difficulty levels with instant AI generated feedback and a game show style interface. Generate custom quizzes with 1-30 questions, receive intelligent grading and educational feedback, and track your performance against the AI.
 
-The application features a retro-futuristic dark-themed interface, real-time scoring, custom CSS styling, and secure API key management through Streamlit Secrets.
+The application features a retro futuristic dark themed interface, real-time scoring, custom CSS styling, and secure API key management through Streamlit Secrets.
 
 ---
 
@@ -21,14 +21,14 @@ The application features a retro-futuristic dark-themed interface, real-time sco
 - Dynamic quiz generation on any topic
 - Three difficulty levels: Easy, Medium, Hard
 - Generate 1-30 questions per quiz
-- AI-graded answers with instant feedback
+- AI graded answers with instant feedback
 - Real-time scoreboard: You vs. AI
 - Celebration animations on correct answers
 - Customizable banner and UI theming
 - Secure API key management via Streamlit Secrets
 - Question persistence across sessions
 - Responsive mobile and desktop design
-- Game-show style retro-futuristic interface
+- Game show style retro futuristic interface
 
 ---
 
@@ -82,12 +82,12 @@ streamlit run main.py
 
 ## Tech Stack
 
-- Python 3.8+ — Core application
-- Streamlit — Web UI framework
-- google-generativeai — Gemini API SDK
-- Custom CSS — Game-show themed styling
-- Streamlit Cloud — Deployment platform
-- Git/GitHub — Version control
+- Python 3.8+, Core application
+- Streamlit, Web UI framework
+- google generativeai, Gemini API SDK
+- Custom CSS, Game show themed styling
+- Streamlit Cloud, Deployment platform
+- Git/GitHub, Version control
 
 ---
 
@@ -116,5 +116,5 @@ streamlit run main.py
 
 ## Related Projects
 
-- [Streamlit-ccmi-genai](https://github.com/Naadir-Dev-Portfolio/Streamlit-ccmi-genai)
-- [Website-ccmi-team-site](https://github.com/Naadir-Dev-Portfolio/Website-ccmi-team-site)
+- [Streamlit ccmi genai](https://github.com/Naadir Dev Portfolio/Streamlit ccmi genai)
+- [Website ccmi team site](https://github.com/Naadir Dev Portfolio/Website ccmi team site)
